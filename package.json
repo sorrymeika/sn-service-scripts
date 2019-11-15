@@ -1,17 +1,14 @@
 {
-  "name": "sonofs",
-  "version": "0.0.8",
+  "name": "sn-sfs-scripts",
+  "version": "0.0.1",
   "main": "./index",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sorrymeika/sonofs.git"
+    "url": "https://github.com/sorrymeika/sn-sfs-scripts.git"
   },
-  "keywords": [
-    "distributed file system",
-    "network file system"
-  ],
+  "keywords": [],
   "devDependencies": {
-    "eslint": "^6.2.2"
+    "eslint": "^6.6.0"
   },
   "dependencies": {},
   "scripts": {}
