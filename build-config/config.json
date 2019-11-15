@@ -1,5 +1,7 @@
 {
     "buildCommands": [
+        "npm install",
+        "ln -s /data/common/sonofs ./node_modules/sonofs",
         "pm2 stop sfs_registry",
         "pm2 stop sfs_server",
         "pm2 stop sfs_slave",
