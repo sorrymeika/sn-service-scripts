@@ -14,9 +14,5 @@
     "eslint": "^6.2.2"
   },
   "dependencies": {},
-  "scripts": {
-    "start": "pm2 start scripts/sfs_registry.js",
-    "server": "pm2 start scripts/sfs_server.js",
-    "slave": "pm2 start scripts/sfs_slave.js"
-  }
+  "scripts": {}
 }
