@@ -14,7 +14,7 @@ const cfg = {
 };
 
 if (cluster.isMaster) {
-    Server.start(cfg, () => {
+    Server.startMaster(cfg, () => {
         for (let i = 0; i < numCPUs; i++) {
             cluster.fork();
         }
@@ -23,5 +23,5 @@ if (cluster.isMaster) {
         console.log(`worker ${worker.process.pid} died`, code, signal);
     });
 } else {
-    Server.childThread(cfg);
+    Server.startWorker(cfg);
 }
