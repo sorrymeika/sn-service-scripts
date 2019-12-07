@@ -8,9 +8,9 @@
         "pm2 stop sfs_registry",
         "pm2 stop sfs_server",
         "pm2 stop sfs_slave",
-        "pm2 start scripts/registry.js --name sfs_registry --lines 1000",
-        "pm2 start scripts/server.js --name sfs_server --lines 1000",
-        "pm2 start scripts/slave.js --name sfs_slave --lines 1000",
+        "pm2 start scripts/registry.js --name sfs_registry --time --lines 1000",
+        "pm2 start scripts/server.js --name sfs_server --time --lines 1000",
+        "pm2 start scripts/slave.js --name sfs_slave --time --lines 1000",
         "pm2 save"
     ],
     "autoConfig": []
